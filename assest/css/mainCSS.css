@@ -1,5 +1,24 @@
+                        /*header */
+body>header>nav{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 10px;
+    color: #d9d9d7;
+
+}
+
+header>nav>li::marker{     /*remove indexing in menu*/
+    content: "";
+}
+
+
+                        /*main page*/
+
 main>section:nth-child(1)>aside>div{
-    height: 98vh;
-    width: 98vw;
+    height: 99.5vh;
+    width: 99.5vw;
     background: url("../img/mainCover.jpg");
+    background-position: center;
+    background-size: cover;
 }
