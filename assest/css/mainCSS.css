@@ -1,10 +1,12 @@
                         /*header */
 body>header>nav{
     display: flex;
-    gap: 20px;
+    gap: 45px;
     position: absolute;
-    top: 10px;
+    top: 25px;
     color: #d9d9d7;
+    left: 70%;
+    font-size: 20px;
 
 }
 
@@ -12,7 +14,14 @@ header>nav>li::marker{     /*remove indexing in menu*/
     content: "";
 }
 
-
+header>div:nth-child(1){
+    background: url("../img/logo.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
                         /*main page*/
 
 main>section:nth-child(1)>aside>div{
