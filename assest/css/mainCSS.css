@@ -1,0 +1,5 @@
+main>section:nth-child(1)>aside>div{
+    height: 98vh;
+    width: 98vw;
+    background: url("../img/mainCover.jpg");
+}
