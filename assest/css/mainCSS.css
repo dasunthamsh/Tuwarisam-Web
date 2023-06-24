@@ -85,19 +85,20 @@ main>section:nth-child(2)>h1 {
 }
 
 main>section:nth-child(2)>aside{
-    border: solid white 1px;
-    width: 95vw;
-    height: 95vh;
+    width: 97vw;
+    height: 97vh;
     position: relative;
 }
 
 main>section:nth-child(2)>aside>div{
-    position: absolute;
-    width: 55vw;
-    height: 350px;
-    background: blueviolet;
-    right: 30px;
-    bottom: 30px;
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
     display: flex;
     align-content: center;
     gap: 15px;
@@ -107,8 +108,19 @@ main>section:nth-child(2)>aside>div{
 }
 
 main>section:nth-child(2)>aside>div>section{
-    width: 220px;
-    height: 330px;
+    width: 95vw;
+    height: 95vh;
     background: #ffb400;
     flex-shrink: 0;
+}
+
+main>section:nth-child(2)>div {
+    position: absolute;
+    width: 55vw;
+    height: 300px;
+    background: blue;
+    z-index: 1;
+    right: 50px;
+    bottom: 30px;
+
 }
