@@ -65,4 +65,49 @@ main>section:nth-child(1)>aside>h6{
     bottom: 30px;
 }
 
+      /*provinces srilanka*/
 
+main>section:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 120px;
+
+}
+
+main>section:nth-child(2)>h1 {
+    color: white;
+    font-family: Bebas Neue;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+main>section:nth-child(2)>aside{
+    border: solid white 1px;
+    width: 95vw;
+    height: 95vh;
+    position: relative;
+}
+
+main>section:nth-child(2)>aside>div{
+    position: absolute;
+    width: 55vw;
+    height: 350px;
+    background: blueviolet;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    align-content: center;
+    gap: 15px;
+    overflow-x: hidden;
+
+}
+
+main>section:nth-child(2)>aside>div>section{
+    width: 220px;
+    height: 330px;
+    background: #ffb400;
+    flex-shrink: 0;
+}
