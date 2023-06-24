@@ -1,6 +1,6 @@
 
 body{
-    background: black;
+    background: #1c1c1c;
 }
 
                         /*header */
@@ -122,7 +122,7 @@ main>section:nth-child(2)>div {   /*aside set*/
     width: 55vw;
     height: 300px;
     z-index: 1;
-    right: 50px;
+    right: 40px;
     bottom: 30px;
     align-content: center;
     gap: 15px;
@@ -142,8 +142,8 @@ main>section:nth-child(2)>div>aside {
 
                 /*small sqa*/
 
-main>section:nth-child(2)>div>aside{
-    background: url("../img/train.jpg");
+main>section:nth-child(2)>div>aside:nth-child(1){
+    background: url("../img/copy.jpg");
     background-size: cover;
     background-position: center;
     opacity: 75%;
@@ -153,7 +153,7 @@ main>section:nth-child(2)>div>aside{
                 /*big sql*/
 
 main>section:nth-child(2)>aside>div>section:nth-child(1){
-    background: url("../img/elep1.jpg");
+    background: url("../img/elep2.jpg");
     background-size: cover;
     background-position: center;
 }
