@@ -101,7 +101,8 @@ main>section:nth-child(2)>aside>div{
     display: flex;
     align-content: center;
     gap: 15px;
-    overflow-x: hidden;
+    overflow: hidden;
+    overflow-x: scroll;
 
 }
 
