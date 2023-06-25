@@ -119,7 +119,7 @@ main>section:nth-child(2)>aside>div>section{
 main>section:nth-child(2)>div {   /*aside set*/
     display: flex;
     position: absolute;
-    width: 55vw;
+    width: 48vw;
     height: 300px;
     z-index: 1;
     right: 40px;
@@ -130,30 +130,51 @@ main>section:nth-child(2)>div {   /*aside set*/
     overflow-x: scroll;
 }
 
-main>section:nth-child(2)>div>aside {
+main>section:nth-child(2)>div>aside {  /*small sqa*/
     position: relative;
-    width: 200px;
-    height: 265px;
+    width: 210px;
+    height: 275px;
     flex-shrink: 0;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
 
 }
 
                 /*small sqa*/
 
 main>section:nth-child(2)>div>aside:nth-child(1){
-    background: url("../img/copy.jpg");
+    background: url("../img/b3.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 75%;
+}
+
+main>section:nth-child(2)>div>aside:nth-child(2){
+    background: url("../img/nelumKuluna.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main>section:nth-child(2)>div>aside:nth-child(3){
+    background: url("../img/hikkaduwa.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main>section:nth-child(2)>div>aside:nth-child(4){
+    background: url("../img/mirissa.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 
                 /*big sql*/
 
 main>section:nth-child(2)>aside>div>section:nth-child(1){
-    background: url("../img/elep2.jpg");
+    background: url("../img/mathara.jpg");
     background-size: cover;
     background-position: center;
 }
+
+
