@@ -170,7 +170,7 @@ main>section:nth-child(2)>div>aside:nth-child(4){
 
 
 
-                /*big sql*/
+                /*big sqa*/
 
 main>section:nth-child(2)>aside>div>section:nth-child(1){
     background: url("../img/mathara.jpg");
@@ -178,4 +178,8 @@ main>section:nth-child(2)>aside>div>section:nth-child(1){
     background-position: center;
 }
 
-
+main>section:nth-child(2)>aside>div>section:nth-child(2){
+    background: url("../img/elep2.jpg");
+    background-size: cover;
+    background-position: center;
+}
